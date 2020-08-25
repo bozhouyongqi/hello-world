@@ -3,7 +3,7 @@
     <el-table
         :data="tableData">
       <el-table-column
-        prop="date"
+        prop="name"
         label="姓名"
         width="180">
         <template slot-scope="scope">
@@ -13,7 +13,7 @@
         </template>
       </el-table-column>
       <el-table-column
-        prop="name"
+        prop="age"
         label="年龄"
         width="180">
         <template slot-scope="scope">
