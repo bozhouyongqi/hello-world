@@ -58,9 +58,6 @@ export default {
     };
   },
   watch: {
-    "scope.row.age": function() {
-        console.log('change')
-    }
   },
   methods: {
       addNew: function() {
